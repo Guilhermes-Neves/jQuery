@@ -1,0 +1,27 @@
+.container {
+ width: 80%; 
+ margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+}
+
+#user {
+  right: 0;
+}
+
+ul, select {
+  margin: 20px 0;
+}
+
+ul li {
+  text-align: center;
+}

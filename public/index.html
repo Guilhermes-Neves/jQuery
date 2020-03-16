@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Alura Typer</title>
+</head>
+
+<body>
+  <header>
+    <nav class="container">
+      <h1>Alura Typer</h1>
+      <p class="frase">Lorem ipsum dolor sit amet consectetur adipisicing elit. At, laudantium quasi inventore magni non
+        laborum fugit temporibus quisquam consequatur, minus error provident, optio corporis facilis voluptate unde
+        recusandae ipsum assumenda.</p>
+
+      <ul class="informacoes">
+        <li><span id="tamanho-frase">0</span> palavras</li>
+        <li><span id="tempo-digitacao">10</span> segundos</li>
+      </ul>
+    </nav>
+
+  </header>
+  <main>
+    <div class="container">
+      <textarea class="campo-digitacao" cols="30" rows="10"></textarea>
+      <button id="botao-reiniciar">Reiniciar Jogo</button>
+
+      <ul class="resultado">
+        <li><span id="contador-caracteres">0</span> caracteres</li>
+        <li><span id="contador-palavras">0</span> palavras</li>
+      </ul>
+
+      <select name="usuario" id="user">
+        <option value="nome">Guilherme</option>
+      </select>
+    </div>
+  </main>
+
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
