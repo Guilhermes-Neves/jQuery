@@ -1,27 +1,40 @@
-.container {
- width: 80%; 
- margin: 0 auto;
+.frase {
+  font-size: 20px;
+  text-align: left;
 }
 
-h1 {
-  text-align: center;
-  font-size: 50px;
+.campo-digitacao {
+  font-size: 20px;
+  height: 130px;
+  border: 3px solid black;
+}
+
+.campo-desabilitado {
+  background-color: lightgray;
+}
+
+.icones {
+  vertical-align: middle;
+}
+
+.frase-correta {
+  border: 3px solid green;
+}
+
+.frase-incorreta {
+  border: 3px solid red;
+}
+
+.placar {
+  display: none;
+}
+
+body {
+  overflow: scroll;
+}
+
+#erro {
+  color: red;
   font-weight: bold;
-  margin-bottom: 20px;
-}
-
-textarea {
-  width: 100%;
-}
-
-#user {
-  right: 0;
-}
-
-ul, select {
-  margin: 20px 0;
-}
-
-ul li {
-  text-align: center;
+  display: none;
 }
